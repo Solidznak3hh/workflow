@@ -1,0 +1,14 @@
+name : Hallo :D
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello_world:
+    runs-on: manjaro-latest
+    steps:
+      - name: Echo the message
+        run: echo
+         "halloooo :D"
